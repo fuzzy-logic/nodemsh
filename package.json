@@ -1,0 +1,31 @@
+{
+    "name": "msh",
+    "description": "Node Microservices Shell",
+    "author": "Gawain Hammond",
+    "version": "0.0.3",
+    "private": false,
+    "repository": {
+      "url": ""
+    },
+    "dependencies": {
+        "underscore": "*",
+        "async": "*",
+        "restify": "*",
+        "superagent": "*"
+    },
+    "main": "./lib/msh",
+    "bin": {
+      "msh": "./bin/msh"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "assert": "*",
+        "validator": "*"
+    },
+    "engines": {
+      "node": "*"
+    }
+}
+
+
+
